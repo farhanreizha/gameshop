@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.banner-image {
+  background-image: url(/img/banner.jpeg);
+}
+.dark {
+  background-image: url(/img/banner2.jpeg);
+  background-size: cover;
+}

@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background-color: #fff;
+}
+.fa {
+  position: absolute;
+  padding: 0.7rem;
+  right: 25px;
+}
+.icons {
+  color: rgb(187, 187, 187);
+}
+.search {
+  background-color: rgb(60, 60, 60);
+  border: none;
+}
+.navBar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  background-color: rgb(30, 30, 30);
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.nav-link {
+  font-size: 1.25rem;
+}
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  background-color: rgba(60, 60, 60, 0.5);
+}
+.text-light {
+  color: rgb(230, 230, 230) !important;
+}
+.search:focus {
+  box-shadow: none;
+  color: #fff;
+  background-color: rgb(60, 60, 60);
+}
+.myContainer {
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+/* forNavbar */
+.active-nav {
+  margin-left: 0;
+}
+/* forMainSection */
+.active-cont {
+  margin-left: 250px;
+}
+
+@media screen and (max-width: 768px) {
+  .navBar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    margin-left: -300px;
+    background-color: rgb(30, 30, 30);
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  // Font Awesome version to use.
+  "fontAwesomeAutocomplete.version": "5",
+  // List of glob patterns that determine where Font Awesome 5 Autocomplete will provide suggestions.
+  "fontAwesomeAutocomplete.patterns": ["**/*.html"]
+}
